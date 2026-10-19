@@ -23,7 +23,7 @@ router.post("/verify-payment", verifyPayment);
 // Transaction history endpoints
 router.get("/orders", getOrders);
 router.get("/orders/:orderId", getOrderById);
-route.get("/check", (req, res) => {
+router.get("/check", (req, res) => {
   res.json({ message: "API is working fine!" });
 });
 
