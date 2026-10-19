@@ -52,6 +52,7 @@ connectDB();
 // API Routes
 app.use("/api", paymentRoutes);
 
+
 // Root informational endpoint
 app.get("/", (req, res) => {
   res.json({
